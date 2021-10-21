@@ -6,8 +6,9 @@
 <main>
         <!-- Hiển thị BẢNG DỮ LIỆU DANH BẠ CÁ NHÂN -->
         <!-- Kết nối tới Server, truy vấn dữ liệu (SELECT) từ Bảng db_employees -->
-        <!-- Quy trình 4 bước -->:
+        <!-- Quy trình 4 bước -->
         Danh sách bệnh nhân
+    <a href="indexfull.php" class="btn btn-success"><i class="fas fa-user-plus"></i>Chi tiết</a>
         <table class="table">
             <thead>
                 <tr>
@@ -19,7 +20,7 @@
                     <th scope="col">Nhóm máu</th>
                 </tr>
             </thead>
-            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
+            
             <tbody>
                 <!-- Đoạn này thay đổi theo Dữ liệu trong CSDL -->
                 <?php
