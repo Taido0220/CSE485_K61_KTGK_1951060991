@@ -6,8 +6,8 @@
 <main>
         <!-- Hiển thị BẢNG DỮ LIỆU DANH BẠ CÁ NHÂN -->
         <!-- Kết nối tới Server, truy vấn dữ liệu (SELECT) từ Bảng db_employees -->
-        <!-- Quy trình 4 bước -->:
-        <a href="add-admin.php" class="btn-primary">Thêm bệnh nhân</a>
+        <!-- Quy trình 4 bước -->
+        <a href="add.php" class="btn btn-success"><i class="fas fa-user-plus"></i> Thêm Bệnh nhân</a>
         <table class="table">
             <thead>
                 <tr>
